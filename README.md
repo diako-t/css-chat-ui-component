@@ -12,7 +12,7 @@ A clean, modern mobile-style Chat UI Component created purely with **HTML5** and
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/diako-t/css-chat-ui-component.git](https://github.com/diako-t/css-chat-ui-component.git)
+   git clone [https://github.com/diako-t/css-chat-ui-component.git]
 2. Open index.html directly in any web browser.
 
 📊 Preview:
