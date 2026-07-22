@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.main-box {
+    width: 350px;
+    height: 600px;
+    border: 1px solid rgb(101, 11, 220);
+    border-radius: 15px;
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url('img/wp4410714.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.chat-item {
+    background-color: rgb(95, 206, 132);
+    border-radius: 8px;
+    width: 200px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.chat-item p {
+    color: white;
+    padding: 8px 12px;
+}
+
+.chat-item::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(95, 206, 132);
+    bottom: -2.5px;
+    left: -0.25px;
+    transform: rotateZ(120deg) skewX(50deg);
+}
+
+.answer-item {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    width: 200px;
+    margin: 10px 0 10px auto;
+    position: relative;
+}
+
+.answer-item p {
+    color: #333;
+    padding: 8px 12px;
+}
+
+.answer-item::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: antiquewhite;
+    transform: rotateZ(-120deg) skewX(-50deg);
+    bottom: -2px;
+    right: -0.075px;
+}
